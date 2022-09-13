@@ -1,0 +1,89 @@
+#home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width: 870px) {
+    #home {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        height: 150%;
+    }
+}
+@media screen and (max-width: 560px) {
+    #home {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+        height: 150%;
+    }
+    nav{
+        width: 70%;
+    }
+    header h1{
+        font-size: 70px;
+    }
+}
+
+.spinner-border{
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+#searchBtn{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+
+.card {
+    background-color: rgb(212, 212, 212);
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.form-switch {
+    float: right;
+}
+
+.sym {
+    font-size: large;
+    display: inline-block;
+    font-weight: bold;
+    height: 50px;
+    width: 190px;
+    /* border: 2px solid black; */
+}
+
+.coin-name {
+    height: 70px;
+    position: sticky;
+    /* border: 2px black solid; */
+}
+
+.more {
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.moreInfo{
+    margin-top: 20px;
+    background-color: rgba(179, 179, 179, 30%);
+}
+
+.modal{
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+.remove button{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+}

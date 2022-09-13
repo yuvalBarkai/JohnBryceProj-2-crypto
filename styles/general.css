@@ -1,0 +1,59 @@
+header {
+    height: 200px;
+    background-image: url("/assets/background-pic.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    background-color: rgb(99, 99, 99);
+}
+
+header h1 {
+    font-size: 100px;
+    text-align: center;
+    color: rgb(244, 209, 167);
+}
+
+nav {
+    background-color: rgb(99, 99, 99);
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#search {
+    background-color: rgb(99, 99, 99);
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+
+#search::placeholder {
+    color: rgba(255, 255, 255, 0.789);
+}
+
+main {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about {
+    color: white;
+    display: none;
+}
+
+#about div{
+    padding: 20px;
+}
+
+#aboutImg {
+    width: 130px;
+    border-radius: 15%;
+}
+
+#about h2 {
+    margin-top: 30px;
+}

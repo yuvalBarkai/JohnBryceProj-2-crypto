@@ -1,0 +1,15 @@
+#live {
+    display: none;
+}
+
+#chartContainer{
+    height: 300px;
+    width: 100%;
+}
+
+.text-danger{
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
